@@ -101,7 +101,7 @@ def prepare_test_data(config, data_dir,size):
 size = len(os.listdir(test_folder))
 
 config = Config(sampling_rate=16000, audio_duration=1, n_folds=10, 
-                learning_rate=0.0001, use_mfcc=True, n_mfcc=30)
+                learning_rate=0.0001, use_mfcc=True, n_mfcc=50)
 
 Xtest  = prepare_test_data(config,test_folder,size)
 
