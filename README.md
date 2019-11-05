@@ -1,0 +1,2 @@
+# SPEECH-EMOTION-PROBLEM
+SER from .wav files
